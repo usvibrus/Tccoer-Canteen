@@ -17,7 +17,7 @@ const Cart = () => {
   const [open, setOpen] = useState(false);
   const [cash, setCash] = useState(false);
   const amount = cart.total;
-  const currency = "USD";
+  const currency = "Rupees";
   const style = { layout: "vertical" };
   const dispatch = useDispatch();
   const router = useRouter();
